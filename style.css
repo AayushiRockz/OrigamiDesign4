@@ -1,0 +1,114 @@
+h1{
+    background: linear-gradient(#f30460, #f87fad);
+   
+    border:2px solid #4722eb;
+    
+    font-family: cursive;
+  
+    border-style: dashed;
+    border-radius: 20px;
+
+}
+h3{
+    color: #ffffff;
+    background-image: url("BlackBack.jpg");
+    margin:1px;
+    padding: 2px;
+    font-family: cursive;
+    
+}
+
+body{
+    margin: 0px;
+    font-family: cursive;
+    background-image:url("castle.jpg");
+   background-size:cover;
+
+    font-size: 20px;
+}
+
+/* * {
+
+    border:solid;
+} */
+.header{
+    background-color: #3FC1C9;
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+   
+
+    
+}
+a{
+    text-decoration:none;
+}
+
+.UT{
+    
+    font-family: cursive;
+    border:5px solid #35edf3;
+    border-radius:100px;
+    background: linear-gradient(195deg, #ffe53b, #ff005b);
+
+}
+.menu{
+    border:5px solid #35edf3;
+    border-radius:30px;
+    background-color: #9BEBEB;
+  
+    
+  
+}
+
+.grid{
+    background-image:url("bg2.jpg");
+    background-size:cover;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border:2px solid #000000;
+    border-radius: 20px;
+}
+.item{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: cursive;
+   
+
+}
+.image{
+    border: 7px solid #ffffff;
+    border-radius: 100px;
+    background-image:url("bg1.jpg");
+    border-style: dotted;
+
+    color: #2d2d6b;
+    box-shadow: 30px -14px;
+    padding: 10px;
+     margin:50px; 
+
+}
+.image:hover{
+    transform: scale(1.2);
+}
+
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top:70%;
+    left: 90%;
+    transform: translate(-50%, -90%);
+}
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color: #6d6a6a;
+}
